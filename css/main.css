@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #82eddf;
+  background: #11e7bd;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2903,4 +2903,18 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+# 图片链接需要线上地址，从这里面找 https:,
+# 我这里使用的是随机图片地址 https:,
+body {
+  background: url("http://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+# 设置文章背景色以及透明度,
+.main-inner {
+  background: rgba(91,91,91,0.8) none repeat scroll;
+  opacity: 0.8;
 }
